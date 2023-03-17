@@ -13,7 +13,7 @@ spec:
         - name: train-schedule
           image: rahul4884/train-schedule:latest
           ports:
-            - containerPort: 8081
+            - containerPort: 3000
           env:
             - name: ALLOW_EMPTY_PASSWORD
               value: "yes"
