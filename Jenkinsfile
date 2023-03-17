@@ -5,6 +5,7 @@ pipeline {
         DOCKER_IMAGE_NAME = "rahul4884/train-schedule"
     }
     stages {
+    
         stage('Build') {
             steps {
                 echo 'Running build automation'
