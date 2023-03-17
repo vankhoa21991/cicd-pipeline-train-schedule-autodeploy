@@ -40,9 +40,11 @@ pipeline {
             }
         }
         stage('DeployToProduction') {
+            steps {
             kubernetes{
             yamlFile 'deployment.yaml'
             retries 2
+            }
             }
         }
     }
