@@ -13,3 +13,6 @@ You can run the app with:
     ./gradlew npm_start
 
 Once it is running, you can access it in a browser at http://localhost:8080
+
+### Follow this blog to Deploy this project to Kubernetes Cluster
+https://medium.com/@U_N_R_3_A_L/how-to-achieve-seamless-ci-cd-with-github-jenkins-docker-and-kubernetes-9c11a322a2c3
