@@ -1,12 +1,12 @@
 pipeline {
     agent any
     environment {
-        DOCKER_IMAGE_NAME = "rahul4884/train-schedule"
+        DOCKER_IMAGE_NAME = "loup21991/train-schedule"
     }
     stages {
         stage("Checkout from github repo"){
             steps{
-            git url: 'https://github.com/Patelrahul4884/cicd-pipeline-train-schedule-autodeploy.git'
+            git url: 'https://github.com/vankhoa21991/cicd-pipeline-train-schedule-autodeploy.git'
             }
         }
         stage('Build') {
